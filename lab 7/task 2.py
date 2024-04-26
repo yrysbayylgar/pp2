@@ -7,8 +7,8 @@ screen_width, screen_height = 800, 600
 screen = pygame.display.set_mode((screen_width, screen_height))
 pygame.display.set_caption("Lab7-2")
 
-song1 = "C:\\Users\\wpgg3\\OneDrive\\Рабочий стол\\KBTU\\pp2\\Lab7\\music\\Don Toliver - Way Bigger.mp3"
-song2 = "C:\\Users\\wpgg3\\OneDrive\\Рабочий стол\\KBTU\\pp2\\Lab7\\music\\Lambo4oe_SELF_ESTEEM.mp3"
+song1 = "C:\\Users\\yrysb\\Рабочий стол\\pp2\\new_pp2\\pp2\\Lab7\\music\\Don Toliver - Way Bigger.mp3"
+song2 = "C:\\Users\\yrysb\\OneDrive\\Рабочий стол\\pp2\\new_pp2\\pp2\\Lab7\\music\\Lambo4oe_SELF_ESTEEM.mp3"
 
 pygame.mixer.init()
 
@@ -35,3 +35,4 @@ while running:
     pygame.display.flip()
 
 pygame.quit()
+
